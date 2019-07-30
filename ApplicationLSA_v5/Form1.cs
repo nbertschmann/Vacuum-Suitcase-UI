@@ -40,7 +40,7 @@ namespace ApplicationLSA_v5
         private bool stopReading = false;
 
         /// <summary>
-        /// Stores <see cref="DataPoint"/> objects of each read.
+        /// Stores DataPoint objects of each read <see cref="DataPoint"/>.
         /// </summary>
         private static List<DataPoint> saveDataList = new List<DataPoint>();
 
@@ -64,7 +64,7 @@ namespace ApplicationLSA_v5
         }
 
         /// <summary>
-        /// Sets up the form in its intial state.
+        /// Sets up the form to its intial state.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -423,12 +423,14 @@ namespace ApplicationLSA_v5
         }
 
         /// <summary>
-        /// Creates a new <see cref="SerialPort"/> object and sets its properties.
+        /// Creates a new SerialPort object and sets its properties <see cref="SerialPort"/> .
         /// </summary>
         /// <remarks>
         /// Required for serial communication between CPU and LSA.
         /// </remarks>
-        /// <returns><see cref="SerialPort"/> object </returns>
+        /// <returns>
+        /// SerialPort object <see cref="SerialPort"/> 
+        /// </returns>
         private SerialPort SerialPortBegin()
         {
             SerialPort _serialPort = new SerialPort();
@@ -457,7 +459,7 @@ namespace ApplicationLSA_v5
         }
 
         /// <summary>
-        /// Creates a new <see cref="DataPoint"/> object and checks if it meets the criteria to read LSA data.
+        /// Creates a new DataPoint object and checks if it meets the criteria to read LSA data <see cref="DataPoint"/>. 
         /// </summary>
         private void ReadAndDisplayData()
         {

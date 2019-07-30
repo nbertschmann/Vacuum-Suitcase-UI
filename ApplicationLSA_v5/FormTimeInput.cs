@@ -199,9 +199,9 @@ namespace ApplicationLSA_v5
             textBoxIntervalMinutes.BackColor = txtboxColor;
             textBoxIntervalSeconds.BackColor = txtboxColor;
         }
-        
+
         /// <summary>
-        /// Saves user input if <see cref="buttonOK"/> is clicked.
+        /// Saves user input if OK button is clicked <see cref="buttonOK"/> .
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
