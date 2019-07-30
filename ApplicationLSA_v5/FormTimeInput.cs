@@ -201,7 +201,7 @@ namespace ApplicationLSA_v5
         }
 
         /// <summary>
-        /// Saves user input if OK button is clicked <see cref="buttonOK"/> .
+        /// Saves user input if <see cref="buttonOK"/> is clicked.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>

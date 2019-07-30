@@ -83,7 +83,7 @@ namespace ApplicationLSA_v5
         }
 
         /// <summary>
-        /// Opens a new FolderBrowserDialog window <see cref="FolderBrowserDialog"/>.
+        /// Opens a new <see cref="FolderBrowserDialog"/> window.
         /// </summary>
         /// <remarks>
         /// Allows user to navigate through file tree.
@@ -106,10 +106,10 @@ namespace ApplicationLSA_v5
 
 
         /// <summary>
-        /// Checks if both File Name and File Path are filled in <see cref="textBoxFileName"/> <seealso cref="textBoxFilePath"/>.
+        /// Checks if both <see cref="textBoxFileName"/> and <seealso cref="textBoxFilePath"/> are filled in.
         /// </summary>
         /// <remarks>
-        /// Prevents empty File Name input <see cref="textBoxFileName"/> .
+        /// Prevents empty <see cref="textBoxFileName"/> input.
         /// </remarks>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -123,10 +123,10 @@ namespace ApplicationLSA_v5
 
 
         /// <summary>
-        /// Checks if both File Name and File Path are filled in <see cref="textBoxFileName"/> <seealso cref="textBoxFilePath"/>.
+        /// Checks if both <see cref="textBoxFileName"/> and <seealso cref="textBoxFilePath"/> are filled in.
         /// </summary>
         /// <remarks>
-        /// Prevents empty File Path input <see cref="textBoxFilePath"/>.
+        /// Prevents empty <see cref="textBoxFilePath"/> input.
         /// </remarks>
         /// <param name="sender"></param>
         /// <param name="e"></param>

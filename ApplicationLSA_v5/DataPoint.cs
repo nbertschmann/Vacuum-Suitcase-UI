@@ -27,7 +27,7 @@ namespace ApplicationLSA_v5
         Form1 frm = (Form1)Application.OpenForms["Form1"];
 
         /// <summary>
-        /// Set to true when SerialPort cannot be opened <see cref="SerialPort"/>.
+        /// Set to true when <see cref="SerialPort"/> cannot be opened.
         /// </summary>
         public static bool UsbRemoved
         {
@@ -65,7 +65,7 @@ namespace ApplicationLSA_v5
         }
 
         /// <summary>
-        /// Returns the time that a given data point is read;
+        /// Returns the time that a given data point is read.
         /// </summary>
         public string TimeOfRead
         {
@@ -74,7 +74,7 @@ namespace ApplicationLSA_v5
         }
 
         /// <summary>
-        /// Returns number of data points read up to date
+        /// Returns number of data points created up to date.
         /// </summary>
         public static int DataPtCount
         {
@@ -90,10 +90,10 @@ namespace ApplicationLSA_v5
         }
 
         /// <summary>
-        /// Initializes SerialPort object for data reading <see cref="SerialPort">.
+        /// Initializes <see cref="SerialPort"> object for data reading.
         /// </summary>
         /// <returns>
-        /// SerialPort object <see cref="SerialPort"/>.
+        ///  <see cref="SerialPort"/> object.
         /// </returns>
         private SerialPort SerialPortBegin()
         {
