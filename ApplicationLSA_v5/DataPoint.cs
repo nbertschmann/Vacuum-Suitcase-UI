@@ -19,21 +19,32 @@ namespace ApplicationLSA_v5
         private string batteryLevel = "";
         private string pumpCurrent = "";
         private string deviceName = "";
-        private string timeOfRead = "";
-        private static int dataPtCount = 0;
-        private static bool nullData = false;
-        private static bool usbRemoved = false;
 
-        Form1 frm = (Form1)Application.OpenForms["Form1"];
+        /// <summary>
+        /// Returns the time that a given data point is read.
+        /// </summary>
+        private string timeOfRead = "";
+
+        /// <summary>
+        /// Set to true when the data read by <see cref="ReadIncomingData"/> is null or not in the correct format.
+        /// </summary>
+        private static bool nullData = false;
 
         /// <summary>
         /// Set to true when <see cref="SerialPort"/> cannot be opened.
         /// </summary>
+        private static bool usbRemoved = false;
+
+        private static int dataPtCount = 0;
+
+        Form1 frm = (Form1)Application.OpenForms["Form1"];
+
         public static bool UsbRemoved
         {
             get { return usbRemoved; }
         }
 
+      
         public static bool NullData
         {
             get { return nullData; }
@@ -64,9 +75,6 @@ namespace ApplicationLSA_v5
             get { return deviceName; }
         }
 
-        /// <summary>
-        /// Returns the time that a given data point is read.
-        /// </summary>
         public string TimeOfRead
         {
             get { return timeOfRead; }
