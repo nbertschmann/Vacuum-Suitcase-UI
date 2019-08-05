@@ -21,7 +21,7 @@ namespace ApplicationLSA_v5
         private string deviceName = "";
 
         /// <summary>
-        /// Returns the time that a given data point is read.
+        /// Returns the time that a given data point is read in relation to the first read.
         /// </summary>
         private string timeOfRead = "";
 
@@ -35,6 +35,9 @@ namespace ApplicationLSA_v5
         /// </summary>
         private static bool usbRemoved = false;
 
+        /// <summary>
+        /// Returns number of data points created up to date.
+        /// </summary>
         private static int dataPtCount = 0;
 
         Form1 frm = (Form1)Application.OpenForms["Form1"];
@@ -81,9 +84,7 @@ namespace ApplicationLSA_v5
             set { timeOfRead = value; }
         }
 
-        /// <summary>
-        /// Returns number of data points created up to date.
-        /// </summary>
+        
         public static int DataPtCount
         {
             get { return dataPtCount; }
@@ -98,7 +99,7 @@ namespace ApplicationLSA_v5
         }
 
         /// <summary>
-        /// Initializes <see cref="SerialPort"> object for data reading.
+        /// Initializes <see cref="SerialPort"/> object for data reading.
         /// </summary>
         /// <returns>
         ///  <see cref="SerialPort"/> object.
