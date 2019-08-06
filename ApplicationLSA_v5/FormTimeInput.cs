@@ -32,6 +32,7 @@ namespace ApplicationLSA_v5
         /// <param name="e"></param>
         private void FormTimeInput_Load(object sender, EventArgs e)
         {
+            this.Size = new Size(383, 171);
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             textBoxCollectDataHours.MaxLength = 2;

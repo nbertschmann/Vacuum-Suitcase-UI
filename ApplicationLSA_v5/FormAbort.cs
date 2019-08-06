@@ -32,6 +32,7 @@ namespace ApplicationLSA_v5
             radioButtonAbortWithoutSaving.Checked = false;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
+            this.Size = new Size(345, 215);
         }
 
         /// <summary>

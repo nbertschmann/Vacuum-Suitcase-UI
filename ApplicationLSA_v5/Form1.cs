@@ -87,6 +87,9 @@ namespace ApplicationLSA_v5
             OffButtonState(false);
             RefreshButtonState(true);
 
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(0,0);
+
             TimerEventStart();
 
             foreach (TabPage tp in tabControl1.TabPages)

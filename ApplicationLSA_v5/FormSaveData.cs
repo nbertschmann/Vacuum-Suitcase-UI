@@ -33,10 +33,14 @@ namespace ApplicationLSA_v5
         {
             buttonSave.Enabled = false;
             textBoxFilePath.ReadOnly = true;
+
+            this.Size = new Size(720, 460);
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             textBoxFileName.Select();
             SetColors();
+
+            textBoxFilePath.Text = this.Size.ToString();
         }
 
 
