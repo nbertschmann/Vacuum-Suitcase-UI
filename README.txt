@@ -5,7 +5,7 @@ I. Name
 LSA Application
 
 II. Purpose
------------
+------------
 This program is intended to facilitate the reading and collection of data coming from the LSA 
 when attached to the UHV suitcase. 
 
@@ -18,7 +18,16 @@ of the UHV suitcase. The user is able to specify the length of time of measureme
 the measurements are to be made. The data read by this program can then be saved in .csv format 
 for further analysis. 
 
-IV. File list
+IV. Syntax
+-----------
+
+	a) _variableName: for variables related to timing - TimeSpan and DateTime types only
+	b) variableName: for variables of other types than described in a)
+	c) ClassName: all class names are in this format
+	d) MethodName: all method names are in this format
+	e) buttonName_action: all event names are in this format
+
+V. File list
 -------------
 DataPoint.cs                 Reads relevant data from LSA and stores
 Form1.cs                     Main form of application; data is displayed and other forms can be accessed
@@ -32,11 +41,11 @@ FormTimeInputDesigner.cs     Design specifications of FormTimeInput form
 README.txt 	             This file
 Program.cs
 
-V. Documentation
-----------------
+VI. Documentation
+------------------
 Full documentation available at
 
-VI. Technologies
-----------------
-Project is created with
+VII. Technologies
+-----------------
+Project was created with
 *Visual Studio 2019
