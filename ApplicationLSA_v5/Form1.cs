@@ -130,6 +130,13 @@ namespace ApplicationLSA_v5
             textBoxIntervalMinutes.Clear();
             textBoxIntervalSeconds.Clear();
             textBoxTimer.Clear();
+            textBoxBatteryPower.Clear();
+            textBoxPressure.Clear();
+            textBoxTemperature.Clear();
+            textBoxPumpCurrent.Clear();
+            textBoxDeviceName.Clear();
+
+            labelCheckmarkTimer.Hide();
         }
 
         /// <summary>
@@ -206,6 +213,7 @@ namespace ApplicationLSA_v5
             saveDataList.Clear();
             ChartTemperatureClear();
             ChartPressureClear();
+            labelCheckmarkTimer.Hide();
             DataPoint.DataPtCount = 0;
 
             SetUpTiming();

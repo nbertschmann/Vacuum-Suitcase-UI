@@ -31,16 +31,14 @@ namespace ApplicationLSA_v5
         /// <param name="e"></param>
         private void FormSaveData_Load(object sender, EventArgs e)
         {
-            buttonSave.Enabled = false;
-            textBoxFilePath.ReadOnly = true;
-
             this.Size = new Size(720, 460);
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
+
+            textBoxFilePath.ReadOnly = true;
             textBoxFileName.Select();
             SetColors();
-
-            textBoxFilePath.Text = this.Size.ToString();
+            SaveButtonState(false);
         }
 
 
@@ -53,7 +51,6 @@ namespace ApplicationLSA_v5
         {
             //Strip file name string after '.', this helps avoid inconsistent file name endings
             string[] fileArray = textBoxFileName.Text.Split('.');
-
 
             fileNameString = @"\" + fileArray[0] + ".csv";
 
