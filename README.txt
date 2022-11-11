@@ -6,7 +6,8 @@ LSA Application
 
 II. Purpose
 ------------
-This program is intended to facilitate the reading and collection of data coming from the LSA when attached to the UHV suitcase. 
+This program is intended to facilitate the reading and collection of data coming from the LSA 
+when attached to the UHV suitcase. 
 
 III. Description
 ----------------
