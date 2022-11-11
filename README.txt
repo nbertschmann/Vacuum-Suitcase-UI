@@ -2,12 +2,14 @@
 
 I. Name
 --------
-LSA Application
+UHV Suitcase LSA Application 
 
 II. Purpose
 ------------
 This program is intended to facilitate the reading and collection of data coming from the LSA 
 when attached to the UHV suitcase. 
+
+The LSA is a rechargeable battery-powered controller for ion pumps with built-in pressure conversion
 
 III. Description
 ----------------
