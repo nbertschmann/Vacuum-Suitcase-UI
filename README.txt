@@ -51,4 +51,5 @@ VII. Technologies
 -----------------
 Project was created with
 *Visual Studio 2019
+*C#
 *Windows Presentation Foundation (WPF) UI framework
